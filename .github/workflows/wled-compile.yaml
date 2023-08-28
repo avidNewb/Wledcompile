@@ -1,6 +1,6 @@
 [env:custom_build]
 extends = env:esp32dev
-build_flags = ${env:esp32dev.build_flags} -D LEDPIN=2 -D RLYPIN=12 -D USERMOD_AUDIOREACTIVE -D USERMOD_AUTO_SAVE
+build_flags = ${env:esp32dev.build_flags} -D LEDPIN=2 -D BTNPIN=0 -D RLYPIN=12 -D IRPIN=4 -D USERMOD_AUDIOREACTIVE -D USERMOD_AUTO_SAVE
 lib_deps = 
   ${env:esp32dev.lib_deps}
   https://github.com/blazoncek/arduinoFFT.git
