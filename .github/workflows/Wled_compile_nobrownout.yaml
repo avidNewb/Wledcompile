@@ -1,4 +1,4 @@
-name: WLED compile
+name: WLED compile No Brownout
 
 on:
     workflow_dispatch:
